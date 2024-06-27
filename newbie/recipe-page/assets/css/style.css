@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Nutmeg-color: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White-color: hsl(0, 0%, 100%);
+
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell-background-color: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Eggshell-background-color);
+    padding: 5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: var(--White-color);
+    padding: 2.2rem;
+    margin: auto;
+    max-width: 48rem;
+    border-radius: 0.7rem;
+}
+
+.container img {
+    width: 100%;
+    display: block;
+    border-radius: 0.7rem;
+}
+
+.container h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+    color: var(--Dark-Charcoal);
+    margin: 1.5rem 0;
+    font-weight: 500;
+}
+
+.container p {
+    color: var(--Wenge-Brown);
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+}
+
+
+.preparation {
+    margin: 1.5rem 0;
+    background-color: var(--Rose-White);
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.preparation h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    color: var(--Dark-Raspberry);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.preparation li::marker {
+    color: var(--Dark-Raspberry);
+}
+
+ul,
+ol {
+    padding-left: 1.5rem;
+    color: var(--Wenge-Brown);
+}
+
+li {
+    margin-bottom: 0.4rem;
+    padding: 0 1rem;
+}
+
+li::marker {
+    color: var(--Nutmeg-color);
+    font-weight: bold;
+}
+
+.preparation span {
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: var(--Nutmeg-color);
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients,
+.instructions {
+    border-bottom: 1px solid var(--Light-Grey);
+    padding-bottom: 2rem;
+}
+
+.instructions,
+.nutrition {
+    margin-top: 1.5rem;
+}
+
+.instructions ol li span {
+    font-weight: bold;
+}
+
+.nutrition table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+th {
+    color: var(--Wenge-Brown);
+    font-weight: 400;
+}
+
+td {
+    color: var(--Nutmeg-color);
+    font-weight: 700;
+}
+
+tr:last-child td, tr:last-child th{
+    border: none;
+}
