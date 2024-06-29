@@ -103,3 +103,35 @@ body {
     caret-color: var(--OffBlack);
 }
 
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .container {
+        padding: 0;
+        max-width: 100vw;
+        border-radius: 0;
+        max-height: 100vh;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        line-height: 1.6rem;
+    }
+
+    p {
+        font-weight: 400;
+    }
+
+    .profile {
+        margin: 1rem;
+    }
+
+    .social-links {
+        margin: 1rem;
+        font-size: 0.9rem;
+    }
+}
