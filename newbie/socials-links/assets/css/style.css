@@ -100,5 +100,6 @@ body {
     background-color: var(--Green);
     color: var(--Grey);
     font-weight: 700;
+    caret-color: var(--OffBlack);
 }
 
