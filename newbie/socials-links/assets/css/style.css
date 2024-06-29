@@ -30,8 +30,8 @@ body {
     background-color: var(--DarkGrey);
     min-width: auto;
     height: auto;
-    padding: 2rem;
-    border-radius: 1.5rem;
+    padding: 3.2rem;
+    border-radius: 1rem;
 }
 
 .profile {
@@ -75,3 +75,30 @@ body {
 .profile p {
     margin-bottom: 2rem;
 }
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-links a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    background-color: var(--Grey);
+    color: var(--White);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    background-color: var(--Green);
+    color: var(--Grey);
+    font-weight: 700;
+}
+
